@@ -1,0 +1,36 @@
+body {
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .chessboard {
+      width: 640px;
+      height: 640px;
+      margin: 20px;
+      border: 10px solid purple;
+      border-radius: 4px;
+  background: #000;
+  box-shadow:  5px 5px 8px rebeccapurple,
+               -5px -5px 8px rebeccapurple;
+  }
+  /** chess pieces color**/
+
+  .black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: rebeccapurple;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #ffcfb6;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
